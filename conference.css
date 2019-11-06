@@ -4,18 +4,21 @@
     box-sizing: border-box;
 }
 
+/*default body*/
 body, html {
     font-family: 'Raleway', sans-serif;
     height: 100%;
     width: 100%;
   }
 
+/*default paragraph text*/
 p {
     font-size: 12px;
     text-transform: none;
     letter-spacing: 1px;
 }
 
+/*defining the header containing nav bar, logo, icon links*/
 header {
     position: fixed;
     right: 0;
@@ -28,6 +31,7 @@ header {
     overflow: hidden;
 }
 
+/*custom colours for use in html file*/
 .bg-custom1 {
     background-color: #dbccbd;
 }
@@ -40,6 +44,7 @@ header {
     background-color: #9b7d60;
 }
 
+/*hamburger drop down menu*/
 .navbar {
     width: 300px;
     height: 100%;
@@ -57,6 +62,7 @@ header {
     left: 0;
 }
 
+/*hamburger drop down menu*/
 .hamburger-menu {
     width: 90px;
     height: 90px;
@@ -72,6 +78,7 @@ header {
     padding-bottom: 30px;
 }
 
+/*hamburger lines*/
 .line {
     width: 25%;
     height: 1px;
@@ -95,6 +102,7 @@ header {
     background-color: #556b2f;
 }
 
+/*hamburger nav items and links*/
 .nav-list {
     text-align: left;
 }
@@ -120,6 +128,7 @@ header {
     color: white;
 }
 
+/*hamburger functionality*/
 .nav-link::before,
 .nav-link::after {
     content: "";
@@ -147,6 +156,7 @@ header {
     transform: scaleX(1);
 }
 
+/*button for book a room*/
 .book-button {
     width: 90px;
     height: 90px;
@@ -183,6 +193,7 @@ header {
     color: white; 
 }
 
+/*logo positioning*/
 .center {
     display: block;
     margin-left: auto;
@@ -190,6 +201,7 @@ header {
     margin-top: 4px;
 }
 
+/*chat header icon*/
 .chat-icon {
     width: 30px;
     height: 90px;
@@ -214,6 +226,7 @@ header {
     background-color: none;
 }
 
+/* email header icon */
 .email-icon {
     width: 30px;
     height: 90px;
@@ -238,6 +251,7 @@ header {
     background-color: none;
 }
 
+/* location header icon */
 .location-icon {
     width: 60px;
     height: 90px;
@@ -260,12 +274,19 @@ header {
     color: #b9a38e;
 }
 
+/*body carousel*/
 .carousel-caption {
     background-color: #b9a38e;
     padding: 25px 25px 15px 25px;
     margin-bottom: 35px;
 }
 
+/*carousel heading text*/
+.carhea {
+    letter-spacing: 5px;
+}
+
+/*anchor nav and dropdown menu*/
 .con-sub {
     width: 100%;
     background-color: #556b2f;
@@ -291,6 +312,7 @@ header {
     border-color: #dbccbd;
 }
 
+/*facilities container - images with descriptions with Discover More links*/
 .nav2 {
     margin-top: 24px;
     margin-bottom: 24px;
@@ -326,10 +348,7 @@ header {
     opacity: 0.8;
 }
 
-.carhea {
-    letter-spacing: 5px;
-}
-
+/*coloured banner container - single image, text and button*/
 .jumbotron-fluid {
     background-color: #b9a38e;
     text-align: center;
@@ -366,6 +385,7 @@ header {
     opacity: 0.8;
 }
 
+/*bottom container above footer*/
 .display-6 {
     text-align: center;
     letter-spacing: 6px;
@@ -381,6 +401,7 @@ header {
     padding: 8%;
 }
 
+/*footer main*/
 .h71a {
     text-transform: uppercase;
     font-size: 12pt;
@@ -439,6 +460,7 @@ header {
     color: white;
 }
 
+/*footer social media links*/
 .fa-facebook {
     color: white;
     padding-right: 14px;
@@ -468,7 +490,8 @@ header {
     color: white;
     padding-right: 14px;
 }
-  
+
+/*footer newsletter signup*/
 .text-n {
     font-size: 11pt;
     color: white;
@@ -506,11 +529,13 @@ input[type=submit]:hover {
     opacity: 0.8;
 }
 
+/*footer award images*/
 .imgtrans {
     margin-right: 2rem;
     margin-top: 2rem;
 }
 
+/*footer - lower*/
 .container-footer {
     background-color: #556b2f;
     color: white;

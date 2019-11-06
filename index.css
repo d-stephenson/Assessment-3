@@ -280,7 +280,12 @@ header {
     margin-bottom: 35px;
 }
 
-/*hotel facilities - descriptions with Discover More links*/
+/*carousel heading text*/
+.carhea {
+    letter-spacing: 5px;
+}
+
+/*hotel facilities container - images with descriptions with Discover More links*/
 .nav2 {
     margin-top: 24px;
     margin-bottom: 24px;
@@ -316,11 +321,7 @@ header {
     opacity: 0.8;
 }
 
-/*carousel heading text*/
-.carhea {
-    letter-spacing: 5px;
-}
-
+/*coloured banner container - single image, text and button*/
 .jumbotron-fluid {
     background-color: #b9a38e;
     text-align: center;
@@ -357,6 +358,7 @@ header {
     opacity: 0.8;
 }
 
+/*trip advisor container*/
 .tpad {
     margin-top: 100px;
     margin-bottom: 100px;
@@ -364,6 +366,7 @@ header {
     margin-right: 25px;
 }
 
+/*footer main*/
 .row {
     padding-right: 0px;
     padding-left: 0px;
@@ -451,6 +454,7 @@ header {
     color: white;
 }
 
+/*footer social media links*/
 .fa-facebook {
     color: white;
     padding-right: 14px;
@@ -480,7 +484,8 @@ header {
     color: white;
     padding-right: 14px;
 }
-  
+ 
+/*footer newsletter signup*/
 .text-n {
     font-size: 11pt;
     color: white;
@@ -518,11 +523,13 @@ input[type=submit]:hover {
     opacity: 0.8;
 }
 
+/*footer award images*/
 .imgtrans {
     margin-right: 2rem;
     margin-top: 2rem;
 }
 
+/*footer - lower*/
 .container-footer {
     background-color: #556b2f;
     color: white;

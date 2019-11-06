@@ -287,6 +287,10 @@ header {
     text-decoration: none;
 }
 
+.dropdown-menu {
+    border-color: #dbccbd;
+}
+
 .nav2 {
     margin-top: 24px;
     margin-bottom: 24px;

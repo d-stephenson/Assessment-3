@@ -394,6 +394,7 @@ header {
 
 .li1:hover {
     text-decoration-line: underline;
+    cursor: pointer;
 }
 
 .fa:hover {

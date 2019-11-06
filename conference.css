@@ -284,6 +284,7 @@ header {
 
 .nav-sub:hover {
     color: #dbccbd;
+    text-decoration: none;
 }
 
 .nav2 {
@@ -394,6 +395,7 @@ header {
 
 .li1:hover {
     text-decoration-line: underline;
+    cursor: pointer;
 }
 
 .fa:hover {

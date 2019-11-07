@@ -278,7 +278,7 @@ header {
 .carousel-caption {
     background-color: #b9a38e;
     padding: 25px 25px 15px 25px;
-    margin-bottom: 35px;
+    margin-bottom: 7%;
 }
 
 /*carousel heading text*/
@@ -397,6 +397,11 @@ header {
 }
 
 /*footer main*/
+.row { 
+    margin-left: 0;
+    margin-right: 0;
+}
+
 .h71a {
     text-transform: uppercase;
     font-size: 12pt;
